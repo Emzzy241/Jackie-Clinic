@@ -1,0 +1,74 @@
+.clinic-navigation {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.clinic-navigation h3 {
+    font-size: 2rem;
+}
+
+.greeting {
+    background-color: purple;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.products .product{
+    /* background-color: black; */
+    border-radius: 50px;
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.products .product button{
+    margin-left: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font-size: 1.0rem;
+    border-radius: 10px;
+    box-shadow: 2px solid rgb(0, 91, 91);
+    border: aqua;
+}
+
+.products .product button:hover {
+    background-color: darkviolet;
+    transition: ease-in 0.5s;
+    color: white;
+}
+
+.greeting:hover {
+    background-color: darkviolet;
+    transition: ease-in 0.5s;
+    color: white;
+}
+
+.see-more {
+    color: white;
+    background-color: pink;
+    padding-left: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border-radius: 30px;
+}
